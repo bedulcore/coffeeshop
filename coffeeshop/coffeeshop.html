@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Bubu</title>
+    <!-- CSS SENDIRI -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- CSS ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS FONT STYLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS ANIMASI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <!-- NAVBAR AWAL -->
+
+    <nav class="navbar">
+        <a href="#" class="navbar-logo animate__animated animate__pulse animate__infinite	infinite">Gaharu
+            <span>Coffee</span>.</a>
+
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menua">Menu</a>
+            <a href="#products">Produk</a>
+            <a href="#contact">Kontak</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="search-button"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#" id="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#" id="menu"><i class="fa-solid fa-bars"></i></a>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here" />
+            <label for="search-box"><i class="fa-solid fa-magnifying-glass"></i></label>
+        </div>
+        
+    </nav>
+
+    <!-- NAVBAR SELESAI -->
+
+    <!-- DESKRIPSI AWAL -->
+
+    <section class="hero" id="home">
+        <main class="konten">
+            <h1>
+                MARI NIKMATI <span>KOPI</span>
+            </h1>
+            <P>
+                Selamat datang di gaharu Coffee! Temukan kenikmatan kopi terbaik dengan sentuhan spesial kami setiap
+                hari.
+            </P>
+            <a href="#" class="cta">
+                Diskon 25% Here!
+            </a>
+        </main>
+    </section>
+    <!-- DESKRIPSI SELESAI -->
+
+    <!-- ABOUT ME -->
+
+    <section id="about" class="about">
+        <h2>ABOUT <span>ME</span></h2>
+
+        <div class="row">
+            <div class="about-img">
+                <img src="asets/bedulnita.webp" alt="tentang kami" class="foto-kopi" />
+            </div>
+            <div class="content">
+                <h3>
+                    Kenapa memilih kopi kami?
+                </h3>
+                <p>
+                    Kami berkomitmen pada praktik pertanian yang berkelanjutan dan adil. Kami bekerja sama dengan petani
+
+                </p>
+                <p>
+                    lokal untuk mendukung komunitas mereka dan memastikan kopi kami ditanam dengan cara yang ramah
+                    lingkungan.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ABOUT ME SELESAI-->
+
+    <!-- MENU AWAL -->
+
+    <section id="menua" class="menu">
+        <h2>
+            Menu
+            <span>Kami</span>
+        </h2>
+        <p>
+            Lihatlah pilihan menu istimewa kami di Gaharu Coffee. Mulai dari kopi premium hingga makanan ringan
+            yang cocok untuk semua selera.
+        </p>
+
+        <div class="row">
+            <div class="menu-card">
+                <img src="asets/espresso.jpg" alt="espresso" class="menu-card-img" />
+                <h3 class="menu-card-title">
+                    Espresso
+                </h3>
+                <p class="menu-card-price">
+                    IDR 18k
+                </p>
+                <button>ORDER</button>
+            </div>
+            <div class="menu-card">
+                <img src="asets/americano.jpg" alt="espresso" class="menu-card-img" />
+                <h3 class="menu-card-title">
+                    Americano
+                </h3>
+                <p class="menu-card-price">
+                    IDR 18k
+                </p>
+                <button>ORDER</button>
+            </div>
+            <div class="menu-card">
+                <img src="asets/latte.jpg" alt="espresso" class="menu-card-img" />
+                <h3 class="menu-card-title">
+                    latte
+                </h3>
+                <p class="menu-card-price">
+                    IDR 18k
+                </p>
+                <button>ORDER</button>
+            </div>
+            <div class="menu-card">
+                <img src="asets/cappucino.jpg" alt="espresso" class="menu-card-img" />
+                <h3 class="menu-card-title">
+                    Capucino
+                </h3>
+                <p class="menu-card-price">
+                    IDR 18k
+                </p>
+                <button>ORDER</button>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- MENU SELESAI-->
+
+
+    <!-- PRODUCT AWAL-->
+
+    <section class="products" id="products">
+        <h2><span>Produk</span> unggulan kami</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, iusto? Porro aspernatur amet distinctio
+            praesentium.</p>
+
+        <div class="row">
+            <div class="product-cart">
+                <div class="product-icons">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-solid fa-eye"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="asets/robusta.jpg" alt="produk1"/>
+                </div>
+                <div class="product-content">
+                    <h3>Biji kopi Robusta</h3>
+                </div>
+                <div class="product-star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="product-price">IDR 59K</div>
+            </div>
+            <div class="product-cart">
+                <div class="product-icons">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-solid fa-eye"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="asets/arabika.jpg" alt="produk1"/>
+                </div>
+                <div class="product-content">
+                    <h3>Biji kopi Arabika</h3>
+                </div>
+                <div class="product-star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="product-price">IDR 49K</div>
+            </div>
+            <div class="product-cart">
+                <div class="product-icons">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-solid fa-eye"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="asets/robuska5050.jpg" alt="produk1"/>
+                </div>
+                <div class="product-content">
+                    <h3>Biji kopi 50% Robusta & 50% Arabika</h3>
+                </div>
+                <div class="product-star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="product-price">IDR 75K <span>IDR 80K</span></div>
+            </div>
+            <div class="product-cart">
+                <div class="product-icons">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-solid fa-eye"></i></a>
+                </div>
+                <div class="product-image">
+                    <img src="asets/robuska7030.jpg" alt="produk1"/>
+                </div>
+                <div class="product-content">
+                    <h3>Biji kopi 70% Robusta & 30% Arabika</h3>
+                </div>
+                <div class="product-star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="product-price">IDR 79K <span>IDR 85K</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCT SELESAI-->
+
+
+    <!-- KONTAK AWAL -->
+
+    <section id="contact" class="contact">
+        <h2><span>Kontak </span>Kami</h2>
+        <p>Temukan kami di Gaharu Coffee.
+            atau cari lokasi kami di google maps yaa :v
+        </p>
+
+        <div class="row">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253746.03629480366!2d106.6607417613318!3d-6.422073495799912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ebfbfb7c0e67%3A0xbb01477b1277f646!2sGaharu%20Coffee!5e0!3m2!1sid!2sid!4v1720110704903!5m2!1sid!2sid"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form action="">
+                <div class="input-group">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Nama" />
+                </div>
+                <div class="input-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" placeholder="Email" />
+                </div>
+                <div class="input-group">
+                    <i class="fa-solid fa-address-book"></i>
+                    <input type="text" placeholder="No hp" />
+                </div>
+                <button type="submit" class="btn">
+                    Kirim pesan
+                </button>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- KONTAK AKHIR -->
+
+    <!-- FOOTER AWAL -->
+
+    <footer>
+        <div class="social">
+            <a href="https://www.instagram.com/abbbdulhakim?igsh=MXVtOGgxNHFobDMzcQ%3D%3D">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="3">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.youtube.com/@predatorhiu">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://www.tiktok.com/@abdulhakim2?_t=8muigHMrm91&_r=1">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menua">Menu</a>
+            <a href="#contact">Kontak</a>
+        </div>
+
+        <div class="credit">
+            <p>
+                Created By <a href="#">hakim</a>
+                &copy; 2024.
+            </p>
+        </div>
+    </footer>
+
+    <!-- FOOTER AKHIR-->
+
+    <script src="kopi.js"></script>
+</body>
+
+</html>
